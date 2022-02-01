@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+        <style>
+            div{
+                text-align: center;
+            }
+            .box1{
+                padding-top: 4%;
+                border: 1px solid crimson;
+                border-radius: 10px;
+                width: 350px;
+                margin: 20px;
+                height: 300px;
+                box-shadow: 8px 7px #b89a9a;
+            }
+            .box2{
+                padding-top: 4%;
+                border: 1px solid crimson;
+                border-radius: 10px;
+                width: 350px;
+                margin: 20px;
+                height: 300px;
+                box-shadow: 8px 7px #b89a9a;
+            }
+            .box3{
+                padding-top: 4%;
+                border: 1px solid crimson;
+                border-radius: 10px;
+                width: 350px;
+                margin: 20px;
+                height: 300px;
+                box-shadow: 8px 7px #b89a9a;
+            }
+            .parent{
+    
+                filter: blur(5px);
+            }
+            .box4{
+                border: 1px solid crimson;
+                border-radius: 10px;
+                width: 350px;
+                height: 150px;
+                text-align: center;
+                box-shadow: 8px 7px #888888;
+            }
+            .child{
+                position: absolute;
+                top: 260px;
+                left: 490px;
+                background-color: white;
+            }
+        </style>
+    </head>
+    <body   style="align-self: center; padding: 7% 17%; font-size: 25px;">
+        <div class="parent">
+            <p style="text-align: center; font-size: 200%; display: inline; padding-left: 75px;"><b>  Tasks</b> Lists  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;<span class="material-icons">
+                add
+            </span>Add List</p> 
+            <br><br>
+            <div class="text" style="align-items: center; margin-top: 3%; margin-left: 7%; display: flex;">
+                <div class="box1">
+                    <p style="color: red;">Trip to Paris</p>
+                    <hr><br>
+                    <del style="color: red;">Completed task</del><br><br>
+                    <form action="" class="form">
+                        <input type="checkbox" id="check">
+                        <label for="check">Pending Task</label>
+                    </form>
+                </div>
+                <div class="box2"> 
+                    <p style="color: red;">My Todo List</p> <hr><br>
+                    <del style="color: red;">Completed task</del><br><br>
+                    <input type="checkbox" id="check">
+                <label for="check">Pending Task</label>
+                </div>
+                <div class="box3">
+                    <p style="color: red;">My Todo List</p><hr><br>
+                    <del style="color: red;">Completed task</del><br><br>
+                    <input type="checkbox" id="check">
+                <label for="check">Pending Task</label>
+                </div>
+            </div>
+        </div>
+        <div class="child">
+            <div class="box4">
+                <br>
+                <label for="test" > Add New List:</label><br>
+                <input type="text" name="list" id="test" value=""><br>
+                <button style="border-radius: 20px; background-color: rgb(231, 33, 33); ">&nbsp; <a href="" style="text-decoration: none; color: white;">ADD</a> &nbsp;</button>
+            </div>
+    
+        </div>
+    </body>
+    </html> 
+    

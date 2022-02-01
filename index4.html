@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .box1{
+            text-align: center;
+            box-shadow: dimgray;
+            border: 1px solid crimson;
+            border-radius: 12px;
+            width: 340px;
+            height: 370px;
+            text-align: center;
+            justify-content: center;
+            box-shadow: 8px 7px #b89a9a;
+        }
+        .parent{
+            
+            filter: blur(5px);
+        }
+        .box4{
+            border: 1px solid crimson;
+            border-radius: 10px;
+            width: 350px;
+            height: 150px;
+            text-align: center;
+            box-shadow: 8px 7px #b89a9a;
+        }
+        .child{
+            position: absolute;
+            top: 260px;
+            left: 490px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body style="  align-self: center; padding: 5% 37%; font-size: 25px;">
+    <div class="parent">
+        <p style="text-align: center; border-bottom: 2px solid ; 
+    line-height: 0.1em; margin: 10px 0 20px; ">
+    <b style="font-size: 55px;  background:#fff; ">Trip to Paris</b></p>
+    <br>
+    <p style="color: darkslategray; font-size: 35px;"> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="material-icons">
+            arrow_back
+        </span>&nbsp;&nbsp; Back</p>
+    <div class="box1"> 
+        <h2><p style="color: red;">Trip to Paris</p></h2><hr><br>
+        <del style="color: red;"><b>Completed task</b></del><br><br>
+        <input type="checkbox" id="check">
+        <label for="check">Pending Task</label><br><br><br>
+        <span class="material-icons" style="float: right; color: red;">
+           add_circle
+        </span>
+    </div>
+    </div>
+    <div class="child">
+        <div class="box4">
+            <br>
+            <label for="test" > Add New Item:</label><br>
+            <input type="text" name="Item" value="" id="test"><br>
+            <button style="border-radius: 20px; background-color: rgb(231, 33, 33); ;">&nbsp; <a href="" style="text-decoration: none; color: white">ADD</a> &nbsp;</button>
+        </div>
+
+    </div>
+    
+</body>
+</html>
